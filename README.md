@@ -9,10 +9,15 @@ Creates a specified number of nested directories with randomly generated but pro
 
 # FAQ
 Q: What does this do?
+
 A: It creates a bunch of folders inside of each other, each with a random (and somewhat pronounceable) name.
 
+
 Q: Can I choose where the folders are output to?
+
 A: The folders are created relative to the .jar's location, so you could move the .jar before running it to determine exactly where you want the folders to be created.
 
+
 Q: Is there a limit to the amount of folders it can create?
+
 A: The application will only accept a number between 1 and 2,147,483,647 - However it can take a ridiculously long time to generate lots of folders, even on faster computers.
