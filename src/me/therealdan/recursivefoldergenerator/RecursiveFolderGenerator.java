@@ -117,6 +117,8 @@ public class RecursiveFolderGenerator extends JFrame implements ActionListener {
         } catch (Exception e) {
             totalFolders = 1;
         }
+        if (totalFolders < 1) totalFolders = 1;
+        if (totalFolders > 1000) totalFolders = 1000;
 
         run(minimumLength, maximumLength, totalFolders);
     }

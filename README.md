@@ -20,4 +20,4 @@ A: The folders are created relative to the .jar's location, so you could move th
 
 Q: Is there a limit to the amount of folders it can create?
 
-A: The application will only accept a number between 1 and 2,147,483,647 - However it can take a ridiculously long time to generate lots of folders, even on faster computers.
+A: The application will only accept a number between 1 and 1,000
