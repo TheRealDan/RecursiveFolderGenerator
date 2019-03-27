@@ -99,6 +99,7 @@ public class RecursiveFolderGenerator extends JFrame implements ActionListener {
         } catch (Exception e) {
             minimumLength = 4;
         }
+        if (minimumLength < 1) minimumLength = 1;
 
         int maximumLength;
         try {
